@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(3, 3, 37);
+    text-align: center;
+    color: aliceblue;
+}
+
+.round-button {
+    border-radius: 80%;
+    background-image: url("viikset.jpg");
+    background-position: center;
+    background-size: 120px 70px;
+    padding: 50px 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px;
+    cursor: pointer;
+
+}
+
+.round-button:hover {
+    border-radius: 80%;
+    background-image: url("viikset.jpg");
+    background-position: center;
+    background-size: 140px 90px;
+    padding: 60px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    
+}
+.round-button.upgraded {
+    border-radius: 50%;
+    background-position: center;
+    background-size: 150px 100px;
+    padding: 80px 80px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px;
+    cursor: pointer;
+    background-image: url("vari_viikset.jpg");
+
+  }
+
+
+#upgrade1 {
+    width: 150px;
+    height: 30px;
+}
+#upgrade2 {
+    width: 150px;
+    height: 30px;
+}
+
+#upgrade3 {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: rgb(167, 104, 10);
+}
+
+#upgrade4 {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(167, 104, 10);
+    color: black;
+}
